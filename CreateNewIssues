@@ -1,0 +1,15 @@
+//Create Issue
+Project: Same as current issue
+Issue type: X
+Parent issue: Current issue
+
+//Link to new issue
+Current issue: is parent task of
+
+//Set fields of new issue
+Summary: Set field value to Groovy Expression:
+return "Work Authorization for " + it.name;
+
+//Multiple Issue Creation
+Iterator:
+return issue.get("Sites");
