@@ -1,0 +1,12 @@
+//Create issue
+Project: same as current issue
+Issue type: (select an issue type)
+
+//Link to new issue
+Current issue: is the parent of
+
+//Set fields of new issue
+Summary: Set field value to constant or Groovy Template
+ABC - <%=issue.get("summary")%>
+
+Click Add/Update.
