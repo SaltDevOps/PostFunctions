@@ -1,0 +1,9 @@
+//use case: issue is in status A. 
+  //issue has 3 available outbound transitions (B,C,D) and you only want to conditionally display those transitions based on the value of another field called "Path"
+  
+Scritped (Groovy) Condition
+
+Groovy Script:
+issue.get("insert custom field name here") == "enter path option here"
+
+Repeat this process on all 3 transitions. 
